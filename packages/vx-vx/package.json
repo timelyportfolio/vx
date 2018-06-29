@@ -10,7 +10,7 @@
     "build"
   ],
   "scripts": {
-    "browserify": "browserify ./dist/vx-vx.umd.js --standalone vx > ./dist/vx.js",
+    "browserify": "browserify ./dist/vx-vx.umd.js --standalone vx > ./dist/vx.js && uglify ./dist/vx.js > ./dist/vx.min.js",
     "build": "npm run build:babel && npm run build:dist && npm run browserify",
     "build:dist": "rm -rf dist && mkdir dist && rollup -c",
     "build:babel": "rm -rf build && mkdir build && babel src --out-dir build --ignore node_modules/ --presets stage-0,react,env",
