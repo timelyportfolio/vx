@@ -1,14 +1,12 @@
 const pkg = require('./package.json');
-const resolve = require('rollup-plugin-node-resolve');
+const resolve = require('@rollup/plugin-node-resolve');
 const babel = require('rollup-plugin-babel');
 const replace = require('rollup-plugin-replace');
 const uglify = require('rollup-plugin-uglify').uglify;
 
-const deps = Object.keys({
-  ...pkg.dependencies,
-  ...pkg.peerDependencies
-});
+const deps = Object.keys(pkg.dependencies).concat(Object.keys(pkg.peerDependencies));
 
+// this does not work as before but leave for now
 const globals = deps.reduce((o, name) => {
   if (name.includes('@vx/')) {
     o[name] = 'vx';
@@ -38,8 +36,7 @@ export default [
     plugins: [
       resolve(),
       babel({
-        exclude: 'node_modules/**',
-        plugins: ['external-helpers']
+        exclude: 'node_modules/**'
       }),
       replace({
         ENV: JSON.stringify('production')
@@ -60,8 +57,7 @@ export default [
     plugins: [
       resolve(),
       babel({
-        exclude: 'node_modules/**',
-        plugins: ['external-helpers']
+        exclude: 'node_modules/**'
       }),
       replace({
         ENV: JSON.stringify('production')

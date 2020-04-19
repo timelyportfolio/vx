@@ -1,60 +1,1150 @@
 # Changelog
-
-- [v0.0.169](#v00169)
-- [v0.0.168](#v00168)
-- [v0.0.167](#v00167)
-- [v0.0.166](#v00166)
-- [v0.0.165](#v00165)
-- [v0.0.164](#v00164)
-- [v0.0.163](#v00163)
-- [v0.0.162](#v00162)
-- [v0.0.161](#v00161)
-- [v0.0.160](#v00160)
-- [v0.0.159](#v00159)
-- [v0.0.158](#v00158)
-- [v0.0.157](#v00157)
-- [v0.0.156](#v00156)
-- [v0.0.155](#v00155)
-- [v0.0.154](#v00154)
-- [v0.0.153](#v00153)
-- [v0.0.152](#v00152)
-- [v0.0.151](#v00151)
-- [v0.0.150](#v00150)
-- [v0.0.149](#v00149)
-- [v0.0.148](#v00148)
-- [v0.0.147](#v00147)
-- [v0.0.146](#v00146)
-- [v0.0.145](#v00145)
-- [v0.0.144](#v00144)
-- [v0.0.143](#v00143)
-- [v0.0.142](#v00142)
-- [v0.0.141](#v00141)
-- [v0.0.140](#v00140)
-- [v0.0.139](#v00139)
-- [v0.0.138](#v00138)
-- [v0.0.137](#v00137)
-- [v0.0.136](#v00136)
-- [v0.0.135](#v00135)
-- [v0.0.134](#v00134)
-- [v0.0.133](#v00133)
-- [v0.0.132](#v00132)
-- [v0.0.131](#v00131)
-- [v0.0.130](#v00130)
-- [v0.0.129](#v00129)
-- [v0.0.128](#v00128)
-- [v0.0.127](#v00127)
-- [v0.0.126](#v00126)
-- [v0.0.125](#v00125)
-- [v0.0.124](#v00124)
-- [v0.0.123](#v00123)
-- [v0.0.122](#v00122)
-- [v0.0.121](#v00121)
-- [v0.0.120](#v00120)
-- [v0.0.114](#v00114)
-- [v0.0.113](#v00113)
-- [v0.0.112](#v00112)
+- [v0.0.195](#v00195)
+- [v0.0.194](#v00194)
+- [v0.0.193](#v00193)
+- [v0.0.192](#v00192)
+- [v0.0.191](#v00191)
+- [v0.0.190](#v00190)
+- [v0.0.189](#v00189)
+- [v0.0.188](#v00188)
+- [v0.0.187](#v00187)
+- [v0.0.186](#v00186)
+- [v0.0.185](#v00185)
+- [v0.0.184](#v00184)
+- [v0.0.183](#v00183)
+- [v0.0.182](#v00182)
+- [v0.0.181](#v00181)
+- [v0.0.180](#v00180)
+<details>
+  <summary>Older Releases...</summary>
+  <ul>
+  <li><a href="#v00179">v0.0.179</a></li>
+  <li><a href="#v00178">v0.0.178</a></li>
+  <li><a href="#v00177">v0.0.177</a></li>
+  <li><a href="#v00176">v0.0.176</a></li>
+  <li><a href="#v00175">v0.0.175</a></li>
+  <li><a href="#v00174">v0.0.174</a></li>
+  <li><a href="#v00173">v0.0.173</a></li>
+  <li><a href="#v00172">v0.0.172</a></li>
+  <li><a href="#v00171">v0.0.171</a></li>
+  <li><a href="#v00170">v0.0.170</a></li>
+  <li><a href="#v00169">v0.0.169</a></li>
+  <li><a href="#v00168">v0.0.168</a></li>
+  <li><a href="#v00167">v0.0.167</a></li>
+  <li><a href="#v00166">v0.0.166</a></li>
+  <li><a href="#v00165">v0.0.165</a></li>
+  <li><a href="#v00164">v0.0.164</a></li>
+  <li><a href="#v00163">v0.0.163</a></li>
+  <li><a href="#v00162">v0.0.162</a></li>
+  <li><a href="#v00161">v0.0.161</a></li>
+  <li><a href="#v00160">v0.0.160</a></li>
+  <li><a href="#v00159">v0.0.159</a></li>
+  <li><a href="#v00158">v0.0.158</a></li>
+  <li><a href="#v00157">v0.0.157</a></li>
+  <li><a href="#v00156">v0.0.156</a></li>
+  <li><a href="#v00155">v0.0.155</a></li>
+  <li><a href="#v00154">v0.0.154</a></li>
+  <li><a href="#v00153">v0.0.153</a></li>
+  <li><a href="#v00152">v0.0.152</a></li>
+  <li><a href="#v00151">v0.0.151</a></li>
+  <li><a href="#v00150">v0.0.150</a></li>
+  <li><a href="#v00149">v0.0.149</a></li>
+  <li><a href="#v00148">v0.0.148</a></li>
+  <li><a href="#v00147">v0.0.147</a></li>
+  <li><a href="#v00146">v0.0.146</a></li>
+  <li><a href="#v00145">v0.0.145</a></li>
+  <li><a href="#v00144">v0.0.144</a></li>
+  <li><a href="#v00143">v0.0.143</a></li>
+  <li><a href="#v00142">v0.0.142</a></li>
+  <li><a href="#v00141">v0.0.141</a></li>
+  <li><a href="#v00140">v0.0.140</a></li>
+  <li><a href="#v00139">v0.0.139</a></li>
+  <li><a href="#v00138">v0.0.138</a></li>
+  <li><a href="#v00137">v0.0.137</a></li>
+  <li><a href="#v00136">v0.0.136</a></li>
+  <li><a href="#v00135">v0.0.135</a></li>
+  <li><a href="#v00134">v0.0.134</a></li>
+  <li><a href="#v00133">v0.0.133</a></li>
+  <li><a href="#v00132">v0.0.132</a></li>
+  <li><a href="#v00131">v0.0.131</a></li>
+  <li><a href="#v00130">v0.0.130</a></li>
+  <li><a href="#v00129">v0.0.129</a></li>
+  <li><a href="#v00128">v0.0.128</a></li>
+  <li><a href="#v00127">v0.0.127</a></li>
+  <li><a href="#v00126">v0.0.126</a></li>
+  <li><a href="#v00125">v0.0.125</a></li>
+  <li><a href="#v00124">v0.0.124</a></li>
+  <li><a href="#v00123">v0.0.123</a></li>
+  <li><a href="#v00122">v0.0.122</a></li>
+  <li><a href="#v00121">v0.0.121</a></li>
+  <li><a href="#v00120">v0.0.120</a></li>
+  <li><a href="#v00114">v0.0.114</a></li>
+  <li><a href="#v00113">v0.0.113</a></li>
+  <li><a href="#v00112">v0.0.112</a></li>
+</ul>
+</details>
 
 ------
+
+# v0.0.195
+
+#### :trophy: Contributors
+
+- [ptmx](https://github.com/ptmx) PR [#631](https://github.com/hshoff/vx/pull/631)
+
+#### :rocket: Enhancements
+
+- [tooltip] `useTooltip` hook added
+
+#### :boom: Breaking Changes
+
+- [tooltip] internally introduces `useState`, requires bumping the `peerDep` for react to `^16.8.0-0`
+
+#### :memo: Documentation
+
+- [tooltip] add `useState` to readme, add advice on HOC vs hooks
+- [demo] Rewrite the `BarStack` demo to use `useTooltip` instead of `withTooltip`
+
+```
+Changes:
+ - @vx/annotation: 0.0.194 => 0.0.195
+ - @vx/axis: 0.0.194 => 0.0.195
+ - @vx/bounds: 0.0.194 => 0.0.195
+ - @vx/brush: 0.0.194 => 0.0.195
+ - @vx/chord: 0.0.194 => 0.0.195
+ - @vx/clip-path: 0.0.194 => 0.0.195
+ - @vx/curve: 0.0.194 => 0.0.195
+ - @vx/demo: 0.0.194 => 0.0.195
+ - @vx/drag: 0.0.194 => 0.0.195
+ - @vx/event: 0.0.194 => 0.0.195
+ - @vx/geo: 0.0.194 => 0.0.195
+ - @vx/glyph: 0.0.194 => 0.0.195
+ - @vx/gradient: 0.0.194 => 0.0.195
+ - @vx/grid: 0.0.194 => 0.0.195
+ - @vx/group: 0.0.194 => 0.0.195
+ - @vx/heatmap: 0.0.194 => 0.0.195
+ - @vx/hierarchy: 0.0.194 => 0.0.195
+ - @vx/legend: 0.0.194 => 0.0.195
+ - @vx/marker: 0.0.194 => 0.0.195
+ - @vx/mock-data: 0.0.194 => 0.0.195
+ - @vx/network: 0.0.194 => 0.0.195
+ - @vx/pattern: 0.0.194 => 0.0.195
+ - @vx/point: 0.0.194 => 0.0.195
+ - @vx/responsive: 0.0.194 => 0.0.195
+ - @vx/scale: 0.0.194 => 0.0.195
+ - @vx/shape: 0.0.194 => 0.0.195
+ - @vx/stats: 0.0.194 => 0.0.195
+ - @vx/text: 0.0.194 => 0.0.195
+ - @vx/threshold: 0.0.194 => 0.0.195
+ - @vx/tooltip: 0.0.194 => 0.0.195
+ - @vx/voronoi: 0.0.194 => 0.0.195
+ - @vx/vx: 0.0.194 => 0.0.195
+ - @vx/zoom: 0.0.194 => 0.0.195
+```
+
+# v0.0.194
+
+#### :trophy: Contributors
+
+- [ptmx](https://github.com/ptmx)
+- [dennisja](https://github.com/dennisja)
+- [gillesdemey](https://github.com/gillesdemey)
+- [mitchellwarr](https://github.com/mitchellwarr)
+- [williaster](https://github.com/williaster)
+
+#### :rocket: Enhancements
+
+- [brush] Add resetOnEnd prop [#614](https://github.com/hshoff/vx/pull/614)
+- [tooltip] Add hook for custom Tooltip container to support SVG tooltips [#610](https://github.com/hshoff/vx/pull/610)
+- [scale] Add sqrtScale [#615](https://github.com/hshoff/vx/pull/615)
+
+#### :bug: Bug Fix
+
+- [zoom] Don't use stale zoom constraint prop [#578](https://github.com/hshoff/vx/pull/578)
+- [responsive] Don't render withParentSize base component until size is known [#621](https://github.com/hshoff/vx/pull/621)
+
+```
+Changes:
+ - @vx/annotation: 0.0.193 => 0.0.194
+ - @vx/axis: 0.0.193 => 0.0.194
+ - @vx/bounds: 0.0.193 => 0.0.194
+ - @vx/brush: 0.0.193 => 0.0.194
+ - @vx/chord: 0.0.193 => 0.0.194
+ - @vx/clip-path: 0.0.193 => 0.0.194
+ - @vx/curve: 0.0.193 => 0.0.194
+ - @vx/demo: 0.0.193 => 0.0.194
+ - @vx/drag: 0.0.193 => 0.0.194
+ - @vx/event: 0.0.193 => 0.0.194
+ - @vx/geo: 0.0.193 => 0.0.194
+ - @vx/glyph: 0.0.193 => 0.0.194
+ - @vx/gradient: 0.0.193 => 0.0.194
+ - @vx/grid: 0.0.193 => 0.0.194
+ - @vx/group: 0.0.193 => 0.0.194
+ - @vx/heatmap: 0.0.193 => 0.0.194
+ - @vx/hierarchy: 0.0.193 => 0.0.194
+ - @vx/legend: 0.0.193 => 0.0.194
+ - @vx/marker: 0.0.193 => 0.0.194
+ - @vx/mock-data: 0.0.193 => 0.0.194
+ - @vx/network: 0.0.193 => 0.0.194
+ - @vx/pattern: 0.0.193 => 0.0.194
+ - @vx/point: 0.0.193 => 0.0.194
+ - @vx/responsive: 0.0.193 => 0.0.194
+ - @vx/scale: 0.0.193 => 0.0.194
+ - @vx/shape: 0.0.193 => 0.0.194
+ - @vx/stats: 0.0.193 => 0.0.194
+ - @vx/text: 0.0.193 => 0.0.194
+ - @vx/threshold: 0.0.193 => 0.0.194
+ - @vx/tooltip: 0.0.193 => 0.0.194
+ - @vx/voronoi: 0.0.193 => 0.0.194
+ - @vx/vx: 0.0.193 => 0.0.194
+ - @vx/zoom: 0.0.193 => 0.0.194
+```
+
+# v0.0.193
+
+See the [TypeScript project](https://github.com/hshoff/vx/projects/2) for a full list of issues + PRs.
+
+#### :trophy: Contributors
+
+- [williaster](https://github.com/williaster)
+- [hshoff](https://github.com/hshoff)
+- [Rudeg](https://github.com/Rudeg)
+- [diagramatics](https://github.com/diagramatics)
+- [geekplux](https://github.com/geekplux)
+- [dennisja](https://github.com/dennisja)
+
+#### :rocket: Enhancements
+- [@vx/*] 
+  - **all** packages re-written in TypeScript and export types under `lib/index.d.ts`
+  - Many misc bug fixes with improved type safety, most `propTypes` are likely stricter now
+- [brush] `@vx/brush` now exports a working `Brush` component :tada:
+- [demo] 
+  - all gallery demos re-written with `react` `hooks` + types
+  - new `@vx/brush` demo is added
+
+#### :memo: Documentation
+- [@vx/*] **all** components in all packages now have full doc strings. *note*: these is not yet reflected on the docs site.
+
+#### :boom: Breaking Changes
+- [boxplot] `@vx/boxplot` deprecated in favor of `@vx/stats` [#561](https://github.com/hshoff/vx/pull/561)
+- [mock-data] `radius` and `distance` values in the `@vx/mock-data` `exoplanet` dataset were updated from strings to numbers to remove the need for consumers to coerce to numbers themselves [#579](https://github.com/hshoff/vx/pull/579)
+- [drag] [#499](https://github.com/hshoff/vx/pull/499)
+  - now has a peerDep `react@^16.3` for `React.Fragment`, dropping support for `react@^15` 
+  - Empty parent `<g>` wrapper around Drag `children` was replaced with a `React.Fragment` which removes a DOM element.
+- [pattern] `PatternOrientation` is no longer the default export of `@vx/patterns/lib/constants` and is instead a named export. PatternOrientation is still used as the export name if importing from the index: `import { PatternOrientation } from '@vx/pattern'` [#503](https://github.com/hshoff/vx/pull/503)
+- [shape] [#507](https://github.com/hshoff/vx/pull/507)
+  - now has a peerDep `react@^16.3` for `React.Fragment`, dropping support for `react@^15` 
+  - the `Arc` `centroid` prop was removed as it was not functional (it was called as if it was an `arc.centroid()` configuration parameter, but in reality the `.centroid` method is for returning the centroid of a datum.
+  - the `Area` component is no longer wrapped in an empty `<g>` element
+  - `order` and `offset` props for `Stack`, `BarStack`, `BarStackHorizontal`, and `AreaStack` previously supported `string`, `array`, or `function`s. Only the `string` prop was functional, and only the enumerated string presets are now allowed.
+- [voronoi] now has a peerDep `react@^16.3` for `React.Fragment`, dropping support for `react@^15` [#512](https://github.com/hshoff/vx/pull/512)
+- [network] [#535](https://github.com/hshoff/vx/pull/535)
+  -  now has a peerDep `react@^16.3` for `React.Fragment`, dropping support for `react@^15` 
+  - `<Nodes />` inner node wrapper `<g>` element className changed to singular (vx-network-nodes => vx-network-node) and outer wrapper `<g>` was replaced with a React.Fragment
+  - `<Links />` inner link wrapper `<g>` element className changed to singular (vx-network-links => vx-network-link) and outer wrapper `<g>` was replaced with a React.Fragment 
+- [glyph] [#518](https://github.com/hshoff/vx/pull/518)
+  - now has a peerDep `react@^16.3` for `React.Fragment`, dropping support for `react@^15` 
+  - (non-functional) `children` prop removed from `GlyphDot` component 
+- [heatmap] now has a peerDep `react@^16.3` for `React.Fragment`, dropping support for `react@^15` [#520](https://github.com/hshoff/vx/pull/520)
+- [hierarchy] now has a peerDep `react@^16.3` for `React.Fragment`, dropping support for `react@^15` [#524](https://github.com/hshoff/vx/pull/524)
+- [threshold] makes the `Threshold` `id` prop required [#533](https://github.com/hshoff/vx/pull/533)
+- [geo] now has a peerDep `react@^16.3` for `React.Fragment`, dropping support for `react@^15` [#537](https://github.com/hshoff/vx/pull/537)
+- [legend] [#551](https://github.com/hshoff/vx/pull/551)
+  - now has a peerDep `react@^16.3` for `React.Fragment`, dropping support for `react@^15`  
+  - the following directory structures were changed which will break deep imports: `src/legends/* => src/*`
+- [stats] [#570](https://github.com/hshoff/vx/pull/570)
+  - now has a peerDep `react@^16.3` for `React.Fragment`, dropping support for `react@^15`  
+  - the following directory structures were changed which will break deep imports
+    - `src/violinplot/ViolinPlot.jsx => src/ViolinPlot.tsx`
+    - `src/boxplot/BoxPlot.jsx => src/BoxPlot.tsx`
+
+#### :house: Internal
+- add `TypeScript` build support to monorepo [#488](https://github.com/hshoff/vx/pull/488)
+- [text] Remove deprecated lifecycles used in Text [#576](https://github.com/hshoff/vx/pull/576)
+
+```
+Changes:
+ - @vx/annotation: 0.0.192 => 0.0.193
+ - @vx/axis: 0.0.192 => 0.0.193
+ - @vx/bounds: 0.0.192 => 0.0.193
+ - @vx/brush: 0.0.192 => 0.0.193
+ - @vx/chord: 0.0.192 => 0.0.193
+ - @vx/clip-path: 0.0.192 => 0.0.193
+ - @vx/curve: 0.0.192 => 0.0.193
+ - @vx/demo: 0.0.192 => 0.0.193
+ - @vx/drag: 0.0.192 => 0.0.193
+ - @vx/event: 0.0.192 => 0.0.193
+ - @vx/geo: 0.0.192 => 0.0.193
+ - @vx/glyph: 0.0.192 => 0.0.193
+ - @vx/gradient: 0.0.192 => 0.0.193
+ - @vx/grid: 0.0.192 => 0.0.193
+ - @vx/group: 0.0.192 => 0.0.193
+ - @vx/heatmap: 0.0.192 => 0.0.193
+ - @vx/hierarchy: 0.0.192 => 0.0.193
+ - @vx/legend: 0.0.192 => 0.0.193
+ - @vx/marker: 0.0.192 => 0.0.193
+ - @vx/mock-data: 0.0.192 => 0.0.193
+ - @vx/network: 0.0.192 => 0.0.193
+ - @vx/pattern: 0.0.192 => 0.0.193
+ - @vx/point: 0.0.192 => 0.0.193
+ - @vx/responsive: 0.0.192 => 0.0.193
+ - @vx/scale: 0.0.192 => 0.0.193
+ - @vx/shape: 0.0.192 => 0.0.193
+ - @vx/stats: 0.0.192 => 0.0.193
+ - @vx/text: 0.0.192 => 0.0.193
+ - @vx/threshold: 0.0.192 => 0.0.193
+ - @vx/tooltip: 0.0.192 => 0.0.193
+ - @vx/voronoi: 0.0.192 => 0.0.193
+ - @vx/vx: 0.0.192 => 0.0.193
+ - @vx/zoom: 0.0.192 => 0.0.193
+```
+
+# v0.0.192
+
+See [#484](https://github.com/hshoff/vx/pull/484) for details.
+
+#### :boom: Breaking Changes
+
+- [breaking] Deprecate `build/` and `dist/`, use `lib/` and `esm/` instead
+- [breaking] Deprecate umd builds
+
+#### :house: Internal
+
+- use `babel` not `rollup`
+- use `yarn` not `npm`
+  - this will enable `workspaces` so that we can push all config to the root instead of duplicating across every package as is the case now
+- Stricter linting rules (e.g., `.jsx` required for `React` files)
+
+#### :trophy: Contributors
+
+- [williaster](https://github.com/williaster)
+
+```
+Changes:
+ - @vx/annotation: 0.0.190 => 0.0.192
+ - @vx/axis: 0.0.191 => 0.0.192
+ - @vx/bounds: 0.0.189 => 0.0.192
+ - @vx/boxplot: 0.0.190 => 0.0.192
+ - @vx/brush: 0.0.189 => 0.0.192
+ - @vx/chord: 0.0.189 => 0.0.192
+ - @vx/clip-path: 0.0.189 => 0.0.192
+ - @vx/curve: 0.0.189 => 0.0.192
+ - @vx/demo: 0.0.191 => 0.0.192
+ - @vx/drag: 0.0.189 => 0.0.192
+ - @vx/event: 0.0.189 => 0.0.192
+ - @vx/geo: 0.0.190 => 0.0.192
+ - @vx/glyph: 0.0.190 => 0.0.192
+ - @vx/gradient: 0.0.189 => 0.0.192
+ - @vx/grid: 0.0.190 => 0.0.192
+ - @vx/group: 0.0.190 => 0.0.192
+ - @vx/heatmap: 0.0.190 => 0.0.192
+ - @vx/hierarchy: 0.0.190 => 0.0.192
+ - @vx/legend: 0.0.190 => 0.0.192
+ - @vx/marker: 0.0.190 => 0.0.192
+ - @vx/mock-data: 0.0.189 => 0.0.192
+ - @vx/network: 0.0.190 => 0.0.192
+ - @vx/pattern: 0.0.189 => 0.0.192
+ - @vx/point: 0.0.189 => 0.0.192
+ - @vx/responsive: 0.0.189 => 0.0.192
+ - @vx/scale: 0.0.190 => 0.0.192
+ - @vx/shape: 0.0.190 => 0.0.192
+ - @vx/stats: 0.0.190 => 0.0.192
+ - @vx/text: 0.0.191 => 0.0.192
+ - @vx/threshold: 0.0.190 => 0.0.192
+ - @vx/tooltip: 0.0.189 => 0.0.192
+ - @vx/voronoi: 0.0.190 => 0.0.192
+ - @vx/vx: 0.0.191 => 0.0.192
+ - @vx/zoom: 0.0.189 => 0.0.192
+```
+
+# v0.0.191
+
+See [#487](https://github.com/hshoff/vx/pull/487) for details.
+
+#### :boom: Breaking Changes
+
+- [text] peerDep `react@^16.3`, deprecate react 15
+- [text] prefix lifecycle methods with `UNSAFE_`
+- [axis] peerDep `react@^16.3`, deprecate react 15 due to @vx/text dep
+- [demo] use react 16.9
+- [demo] prefix lifecycle methods with `UNSAFE_`
+
+#### :house: Internal
+
+- [internal] update deps: coveralls, lint-staged, marked
+
+#### :trophy: Contributors
+
+- [hshoff](https://github.com/hshoff)
+
+```
+Changes:
+ - @vx/axis: 0.0.190 => 0.0.191
+ - @vx/demo: 0.0.190 => 0.0.191
+ - @vx/text: 0.0.190 => 0.0.191
+ - @vx/vx: 0.0.190 => 0.0.191
+ ```
+
+# v0.0.190
+
+#### 💥 Breaking Changes
+
+- [scale] [d3-scale 2.2.2 changed](https://github.com/d3/d3-scale/issues/117) the behavior of a collapsed domain. See [this comment](https://github.com/hshoff/vx/issues/473#issuecomment-508203310) for how to handle the updated behavior. [#477](https://github.com/hshoff/vx/pull/477)
+- [text] Don't split strings rendered by `<Text />` when encountering a set of non-breaking space characters. [#460](https://github.com/hshoff/vx/pull/460)
+
+#### :rocket: Enhancements
+
+- [group] add innerRef prop. [#480](https://github.com/hshoff/vx/pull/480)
+- [scale] bump d3-scale dep to `^2.2.2` for scaleSymlog. [#477](https://github.com/hshoff/vx/pull/477)
+- [scale] add scaleSymlog. [#470](https://github.com/hshoff/vx/pull/470)
+
+#### :bug: Bug Fix
+
+- [stats] fix horizontal boxplot in @vx/stats. [#476](https://github.com/hshoff/vx/pull/476)
+- [boxplot] fix horizontal boxplot in @vx/boxplot. [#472](https://github.com/hshoff/vx/pull/472)
+- [heatmap] remove `bin.x0`. The x0 offset is accounted for in `bin.x`. [#475](https://github.com/hshoff/vx/pull/475)
+
+#### :memo: Documentation
+
+- [docs][group] add innerRef prop. [#480](https://github.com/hshoff/vx/pull/480)
+- [axis] fix `tickLabelProps()` prop default args for docs. [#478](https://github.com/hshoff/vx/pull/478)
+- [glyph] remove outdated readme description. [#478](https://github.com/hshoff/vx/pull/478)
+- [docs] run doc:gen script. [#478](https://github.com/hshoff/vx/pull/478)
+
+
+#### :trophy: Contributors
+
+- [hshoff](https://github.com/hshoff)
+- [robsco-git](https://github.com/robsco-git)
+- [LambStack](https://github.com/LambStack)
+- [mmarkelov](https://github.com/mmarkelov)
+
+```
+Changes:
+ - @vx/annotation: 0.0.189 => 0.0.190
+ - @vx/axis: 0.0.189 => 0.0.190
+ - @vx/boxplot: 0.0.189 => 0.0.190
+ - @vx/demo: 0.0.189 => 0.0.190
+ - @vx/geo: 0.0.189 => 0.0.190
+ - @vx/glyph: 0.0.189 => 0.0.190
+ - @vx/grid: 0.0.189 => 0.0.190
+ - @vx/group: 0.0.189 => 0.0.190
+ - @vx/heatmap: 0.0.189 => 0.0.190
+ - @vx/hierarchy: 0.0.189 => 0.0.190
+ - @vx/legend: 0.0.189 => 0.0.190
+ - @vx/marker: 0.0.189 => 0.0.190
+ - @vx/network: 0.0.189 => 0.0.190
+ - @vx/scale: 0.0.189 => 0.0.190
+ - @vx/shape: 0.0.189 => 0.0.190
+ - @vx/stats: 0.0.189 => 0.0.190
+ - @vx/text: 0.0.189 => 0.0.190
+ - @vx/threshold: 0.0.189 => 0.0.190
+ - @vx/voronoi: 0.0.189 => 0.0.190
+ - @vx/vx: 0.0.189 => 0.0.190
+ ```
+
+# v0.0.189
+
+#### :boom: Breaking Changes
+
+- [shape] `<Arc />` and `<Pie pieValue={} />` props now check for `!== undefined`. Before `0` wouldn't set the prop to `0` because `if (0)` is `false`. This is only a breaking change if you were passing `0` before and happy with `<Arc />` treating that as `undefined` and using d3.arc() defaults. [#464](https://github.com/hshoff/vx/pull/464)
+- [zoom] make wheel event active by default. fixes Chrome 73 scroll intervention warning. [#456](https://github.com/hshoff/vx/pull/456)
+  + To keep the default behavior before Chrome 73 and remove console warnings in Chrome 73, **remove**: 
+    ```diff
+    <MyComponent
+    - onWheel={zoom.handleWheel}
+    />
+    ```
+  + To make the onWheel events passive, **add**:
+    ```diff
+    <Zoom
+    + passive={true}
+    >
+      {zoom => {
+        return (
+          <MyComponent
+    +      onWheel={zoom.handleWheel}
+          /> 
+        );
+      }}
+    </Zoom>
+    ```
+
+#### :rocket: Enhancements
+
+- [responsive][shape][text][geo] update `innerRef` propType to include PropType.object. [#446](https://github.com/hshoff/vx/pull/446)
+
+#### :bug: Bug Fix
+
+- [text] move Babel dependencies to dev only. [#461](https://github.com/hshoff/vx/pull/461)
+- [shape] `<Arc />` now respects `0` as an allowed prop value. [#464](https://github.com/hshoff/vx/pull/464)
+- [shape] `<Pie />`  `pieValue` now respects `0` as an allowed prop value. [#464](https://github.com/hshoff/vx/pull/464)
+
+#### :memo: Documentation
+
+- [docs] update docs. [#446](https://github.com/hshoff/vx/pull/446)
+- [glyph] fixes outdated `@vx/glyph` examples in the readme docs. [#454](https://github.com/hshoff/vx/pull/454)
+
+#### :house: Internal
+
+- [internal] fix jest code coverage, update jest, move to `babel.config.js` + `jest.config.js`. [#439](https://github.com/hshoff/vx/pull/439)
+- [internal] babel preset env target `explorer` => `ie`. [#446](https://github.com/hshoff/vx/pull/446)
+- [internal] babel preset env target remove `ucandroid`. [#446](https://github.com/hshoff/vx/pull/446)
+- [shape] add more `<Arc />` tests. [#464](https://github.com/hshoff/vx/pull/464)
+- [shape] convert `Arc.test` from `CRLF` => `LF`. [#464](https://github.com/hshoff/vx/pull/464)
+
+#### :trophy: Contributors
+
+- [hshoff](https://github.com/hshoff)
+- [milesj](https://github.com/milesj)
+
+```
+Changes:
+ - @vx/annotation: 0.0.184 => 0.0.189
+ - @vx/axis: 0.0.184 => 0.0.189
+ - @vx/bounds: 0.0.182 => 0.0.189
+ - @vx/boxplot: 0.0.183 => 0.0.189
+ - @vx/brush: 0.0.182 => 0.0.189
+ - @vx/chord: 0.0.183 => 0.0.189
+ - @vx/clip-path: 0.0.183 => 0.0.189
+ - @vx/curve: 0.0.182 => 0.0.189
+ - @vx/demo: 0.0.188 => 0.0.189
+ - @vx/drag: 0.0.183 => 0.0.189
+ - @vx/event: 0.0.182 => 0.0.189
+ - @vx/geo: 0.0.187 => 0.0.189
+ - @vx/glyph: 0.0.183 => 0.0.189
+ - @vx/gradient: 0.0.183 => 0.0.189
+ - @vx/grid: 0.0.184 => 0.0.189
+ - @vx/group: 0.0.183 => 0.0.189
+ - @vx/heatmap: 0.0.183 => 0.0.189
+ - @vx/hierarchy: 0.0.183 => 0.0.189
+ - @vx/legend: 0.0.183 => 0.0.189
+ - @vx/marker: 0.0.184 => 0.0.189
+ - @vx/mock-data: 0.0.185 => 0.0.189
+ - @vx/network: 0.0.183 => 0.0.189
+ - @vx/pattern: 0.0.183 => 0.0.189
+ - @vx/point: 0.0.182 => 0.0.189
+ - @vx/responsive: 0.0.188 => 0.0.189
+ - @vx/scale: 0.0.182 => 0.0.189
+ - @vx/shape: 0.0.184 => 0.0.189
+ - @vx/stats: 0.0.183 => 0.0.189
+ - @vx/text: 0.0.183 => 0.0.189
+ - @vx/threshold: 0.0.184 => 0.0.189
+ - @vx/tooltip: 0.0.184 => 0.0.189
+ - @vx/voronoi: 0.0.183 => 0.0.189
+ - @vx/vx: 0.0.188 => 0.0.189
+ - @vx/zoom: 0.0.185 => 0.0.189
+```
+
+# v0.0.188
+
+#### :bug: Bug Fix
+
+- [responsive] add debounceTime back to prevent it spreading on children through restProps. [#437](https://github.com/hshoff/vx/pull/437)
+
+#### :trophy: Contributors
+
+- [hshoff](https://github.com/hshoff)
+
+```
+Changes:
+ - @vx/demo: 0.0.187 => 0.0.188
+ - @vx/responsive: 0.0.186 => 0.0.188
+ - @vx/vx: 0.0.187 => 0.0.188
+ ```
+
+# v0.0.187
+
+#### :rocket: Enhancements
+
+- [geo] add `<CustomProjection projection={someProjectionFunction} />`. [#434](https://github.com/hshoff/vx/pull/434)
+
+#### :memo: Documentation
+
+- [demo] add `<CustomProjection />` tile. [#434](https://github.com/hshoff/vx/pull/434)
+
+#### :house: Internal
+
+- [geo] add `<CustomProjection />` test. [#435](https://github.com/hshoff/vx/pull/435)
+
+
+#### :trophy: Contributors
+
+- [hshoff](https://github.com/hshoff)
+
+```
+Changes:
+ - @vx/demo: 0.0.186 => 0.0.187
+ - @vx/geo: 0.0.184 => 0.0.187
+ - @vx/vx: 0.0.186 => 0.0.187
+ ```
+
+# v0.0.186
+
+#### :memo: Documentation
+
+- [demo] cleanup DragII demo. [#424](https://github.com/hshoff/vx/pull/424)
+- [demo] fixed broken BarStacks example. Bar Stack Horizontal example works correct, but BarStack for some reason uses `({ barStacks })` instead of `barStacks`. [#423](https://github.com/hshoff/vx/pull/423)
+
+#### :bug: Bug Fix
+
+- [responsive] `<ParentSize />` replace `for..of` with `forEach()` to fix IE11 error without having to sham `Symbol`. More info: https://github.com/hshoff/vx/issues/258 [#428](https://github.com/hshoff/vx/pull/428)
+
+#### :trophy: Contributors
+
+- [EugeneDraitsev](https://github.com/EugeneDraitsev)
+- [dennisja](https://github.com/dennisja)
+- [hshoff](https://github.com/hshoff)
+
+```
+Changes:
+ - @vx/demo: 0.0.185 => 0.0.186
+ - @vx/responsive: 0.0.184 => 0.0.186
+ - @vx/vx: 0.0.185 => 0.0.186
+ ```
+
+# v0.0.185
+
+#### :rocket: Enhancements
+
+- [zoom] add `<Zoom />`. [#418](https://github.com/hshoff/vx/pull/418)
+- [mock data] add `genPhyllotaxis()`. [#418](https://github.com/hshoff/vx/pull/418)
+
+#### :trophy: Contributors
+
+- [hshoff](https://github.com/hshoff)
+
+```
+Changes:
+ - @vx/demo: 0.0.184 => 0.0.185
+ - @vx/mock-data: 0.0.182 => 0.0.185
+ - @vx/vx: 0.0.184 => 0.0.185
+ - @vx/zoom: 0.0.182 => 0.0.185
+ ```
+
+# v0.0.184
+
+#### :rocket: Enhancements
+
+- [geo] add `albersUsa` projection in d3-geo to @vx/geo. [#415](https://github.com/hshoff/vx/pull/415)
+- [geo] add `equalEarth` projection in d3-geo to @vx/geo. [#407](https://github.com/hshoff/vx/pull/407)
+
+#### :bug: Bug Fix
+
+- [shape] fix proptype for LinePath `defined` prop. Should use `oneOfType` rather than `oneOf`. [#414](https://github.com/hshoff/vx/pull/414)
+- [demo] remove unnecessary destructuring of props in demo code. [#409](https://github.com/hshoff/vx/pull/409)
+- [responsive] fix proptype for ScaleSVG `children` prop. [#408](https://github.com/hshoff/vx/pull/408)
+
+#### :memo: Documentation
+
+- [tooltip] fix tooltip docs. [#403](https://github.com/hshoff/vx/pull/403)
+
+#### :trophy: Contributors
+
+- [lorenries](https://github.com/lorenries)
+- [spiderbites](https://github.com/spiderbites)
+- [pajkicdj](https://github.com/pajkicdj)
+- [mmarkelov](https://github.com/mmarkelov)
+- [dennisja](https://github.com/dennisja)
+
+```
+Changes:
+ - @vx/annotation: 0.0.183 => 0.0.184
+ - @vx/axis: 0.0.183 => 0.0.184
+ - @vx/demo: 0.0.183 => 0.0.184
+ - @vx/geo: 0.0.183 => 0.0.184
+ - @vx/grid: 0.0.183 => 0.0.184
+ - @vx/marker: 0.0.183 => 0.0.184
+ - @vx/responsive: 0.0.183 => 0.0.184
+ - @vx/shape: 0.0.183 => 0.0.184
+ - @vx/threshold: 0.0.183 => 0.0.184
+ - @vx/tooltip: 0.0.182 => 0.0.184
+ - @vx/vx: 0.0.183 => 0.0.184
+```
+
+# v0.0.183
+
+#### :rocket: Enhancements
+
+- [responsive] add `innerRef` prop to `<ScaleSVG />`. [#393](https://github.com/hshoff/vx/pull/393)
+
+#### :memo: Documentation
+
+- [docs] use [react-docgen](https://github.com/reactjs/react-docgen) to generate docs from prop-types and comments. [#399](https://github.com/hshoff/vx/pull/399)
+- [responsive][docs] add innerRef prop docs. [#400](https://github.com/hshoff/vx/pull/400)
+- [threshold][docs] update `clipAboveTo` and `clipBelowTo` prop types to `number|func`. [#401](https://github.com/hshoff/vx/pull/401)
+
+#### :house: Internal
+
+- [docs] add script to sync files -> docs -> readme -> [vx-demo.now.sh/docs](https://vx-demo.now.sh/docs). [#399](https://github.com/hshoff/vx/pull/399)
+
+
+#### :trophy: Contributors
+
+- [dagda1](https://github.com/dagda1)
+- [hshoff](https://github.com/hshoff)
+
+```
+Changes:
+ - @vx/annotation: 0.0.182 => 0.0.183
+ - @vx/axis: 0.0.182 => 0.0.183
+ - @vx/boxplot: 0.0.182 => 0.0.183
+ - @vx/chord: 0.0.182 => 0.0.183
+ - @vx/clip-path: 0.0.182 => 0.0.183
+ - @vx/demo: 0.0.182 => 0.0.183
+ - @vx/drag: 0.0.182 => 0.0.183
+ - @vx/geo: 0.0.182 => 0.0.183
+ - @vx/glyph: 0.0.182 => 0.0.183
+ - @vx/gradient: 0.0.182 => 0.0.183
+ - @vx/grid: 0.0.182 => 0.0.183
+ - @vx/group: 0.0.182 => 0.0.183
+ - @vx/heatmap: 0.0.182 => 0.0.183
+ - @vx/hierarchy: 0.0.182 => 0.0.183
+ - @vx/legend: 0.0.182 => 0.0.183
+ - @vx/marker: 0.0.182 => 0.0.183
+ - @vx/network: 0.0.182 => 0.0.183
+ - @vx/pattern: 0.0.182 => 0.0.183
+ - @vx/responsive: 0.0.182 => 0.0.183
+ - @vx/shape: 0.0.182 => 0.0.183
+ - @vx/stats: 0.0.182 => 0.0.183
+ - @vx/text: 0.0.182 => 0.0.183
+ - @vx/threshold: 0.0.182 => 0.0.183
+ - @vx/voronoi: 0.0.182 => 0.0.183
+ - @vx/vx: 0.0.182 => 0.0.183
+```
+
+# v0.0.182
+
+#### :bug: Bug Fix
+
+- [tooltip] fractional pixel values can sometimes lead to shaky rendering when using Firefox. [#389](https://github.com/hshoff/vx/pull/389)
+
+#### :memo: Documentation
+
+- [gallery] add `<BarStackHorizontal />` example code back. [#387](https://github.com/hshoff/vx/pull/387)
+- [readme] add a new demo of a project using vx components. [#391](https://github.com/hshoff/vx/pull/391)
+
+#### :house: Internal
+
+- [internal] upgrade to [babel@7](https://babeljs.io/docs/en/v7-migration.html). [#387](https://github.com/hshoff/vx/pull/387)
+
+#### :trophy: Contributors
+
+- [abradley](https://github.com/abradley)
+- [JayWelsh](https://github.com/JayWelsh)
+- [hshoff](https://github.com/hshoff)
+
+```
+Changes:
+ - @vx/annotation: 0.0.181 => 0.0.182
+ - @vx/axis: 0.0.181 => 0.0.182
+ - @vx/bounds: 0.0.165 => 0.0.182
+ - @vx/boxplot: 0.0.181 => 0.0.182
+ - @vx/brush: 0.0.179 => 0.0.182
+ - @vx/chord: 0.0.166 => 0.0.182
+ - @vx/clip-path: 0.0.165 => 0.0.182
+ - @vx/curve: 0.0.165 => 0.0.182
+ - @vx/demo: 0.0.181 => 0.0.182
+ - @vx/drag: 0.0.179 => 0.0.182
+ - @vx/event: 0.0.179 => 0.0.182
+ - @vx/geo: 0.0.181 => 0.0.182
+ - @vx/glyph: 0.0.181 => 0.0.182
+ - @vx/gradient: 0.0.165 => 0.0.182
+ - @vx/grid: 0.0.181 => 0.0.182
+ - @vx/group: 0.0.170 => 0.0.182
+ - @vx/heatmap: 0.0.181 => 0.0.182
+ - @vx/hierarchy: 0.0.181 => 0.0.182
+ - @vx/legend: 0.0.181 => 0.0.182
+ - @vx/marker: 0.0.181 => 0.0.182
+ - @vx/mock-data: 0.0.179 => 0.0.182
+ - @vx/network: 0.0.179 => 0.0.182
+ - @vx/pattern: 0.0.179 => 0.0.182
+ - @vx/point: 0.0.165 => 0.0.182
+ - @vx/responsive: 0.0.179 => 0.0.182
+ - @vx/scale: 0.0.179 => 0.0.182
+ - @vx/shape: 0.0.181 => 0.0.182
+ - @vx/stats: 0.0.181 => 0.0.182
+ - @vx/text: 0.0.179 => 0.0.182
+ - @vx/threshold: 0.0.181 => 0.0.182
+ - @vx/tooltip: 0.0.179 => 0.0.182
+ - @vx/voronoi: 0.0.181 => 0.0.182
+ - @vx/vx: 0.0.181 => 0.0.182
+ - @vx/zoom: 0.0.165 => 0.0.182
+```
+
+# v0.0.181
+
+For a summary and before + after of changes please see: https://github.com/hshoff/vx/pull/383
+
+#### :boom: Breaking Changes
+
+- [glyph][breaking] rm additionalProps, add children as fn 
+- [shape][breaking] rm additionalProps, add children as fn 
+- [geo][breaking] rm additionalProps, add children as fn 
+- [heatmap][breaking] rm additionalProps, add children as fn 
+- [stats][breaking] rm additionalProps, add children as fn 
+- [boxplot][breaking] rm additionalProps, add children as fn 
+- [voronoi][breaking] rm additionalProps, add children as fn 
+- [legend][breaking] rm additionalProps, add children as fn 
+
+#### :house: Internal
+
+- [demo] update gallery tile examples to new apis
+
+#### :trophy: Contributors
+
+- [hshoff](https://github.com/hshoff)
+
+```
+Changes:
+ - @vx/annotation: 0.0.179 => 0.0.181
+ - @vx/axis: 0.0.179 => 0.0.181
+ - @vx/boxplot: 0.0.170 => 0.0.181
+ - @vx/demo: 0.0.180 => 0.0.181
+ - @vx/geo: 0.0.179 => 0.0.181
+ - @vx/glyph: 0.0.179 => 0.0.181
+ - @vx/grid: 0.0.180 => 0.0.181
+ - @vx/heatmap: 0.0.179 => 0.0.181
+ - @vx/hierarchy: 0.0.179 => 0.0.181
+ - @vx/legend: 0.0.179 => 0.0.181
+ - @vx/marker: 0.0.179 => 0.0.181
+ - @vx/shape: 0.0.179 => 0.0.181
+ - @vx/stats: 0.0.179 => 0.0.181
+ - @vx/threshold: 0.0.179 => 0.0.181
+ - @vx/voronoi: 0.0.170 => 0.0.181
+ - @vx/vx: 0.0.180 => 0.0.181
+```
+
+# v0.0.180
+
+#### :rocket: Enhancements
+
+- [grid] allow passing in `tickValues` prop to both Columns and Rows, to render grid lines at specific values. [#376](https://github.com/hshoff/vx/pull/376)
+- [grid] allow passing in `rowTickValues` prop and `columnTickValues` prop to Grid. [#376](https://github.com/hshoff/vx/pull/376)
+- [grid] update vx-grid's Readme.md to reflect the changes above.[#376](https://github.com/hshoff/vx/pull/376)
+
+#### :bug: Bug Fix
+
+- [grid] updates `strokeWidth` `propTypes` in the `@vx/grid` components to allow numbers in addition to strings. [#380](https://github.com/hshoff/vx/pull/380)
+
+#### :trophy: Contributors
+
+- [robinsoncol](https://github.com/robinsoncol)
+- [williaster](https://github.com/williaster)
+
+```
+Changes:
+ - @vx/demo: 0.0.179 => 0.0.180
+ - @vx/grid: 0.0.179 => 0.0.180
+ - @vx/vx: 0.0.179 => 0.0.180
+ ```
+
+# v0.0.179
+
+#### :boom: Breaking Changes
+
+- [vx] there's a possibility that new prop type checks might not be as care free as before. [#371](https://github.com/hshoff/vx/pull/371)
+
+#### :rocket: Enhancements
+
+- [vx] add missing `propTypes` to all components. [#371](https://github.com/hshoff/vx/pull/371)
+
+#### :house: Internal
+
+- [vx] add `.eslintrc`. [#371](https://github.com/hshoff/vx/pull/371)
+- [vx] fix all eslint errors + warnings. [#371](https://github.com/hshoff/vx/pull/371)
+
+#### :trophy: Contributors
+
+- [hshoff](https://github.com/hshoff)
+
+```
+Changes:
+ - @vx/annotation: 0.0.178 => 0.0.179
+ - @vx/axis: 0.0.178 => 0.0.179
+ - @vx/brush: 0.0.165 => 0.0.179
+ - @vx/demo: 0.0.178 => 0.0.179
+ - @vx/drag: 0.0.165 => 0.0.179
+ - @vx/event: 0.0.165 => 0.0.179
+ - @vx/geo: 0.0.170 => 0.0.179
+ - @vx/glyph: 0.0.170 => 0.0.179
+ - @vx/grid: 0.0.178 => 0.0.179
+ - @vx/heatmap: 0.0.173 => 0.0.179
+ - @vx/hierarchy: 0.0.170 => 0.0.179
+ - @vx/legend: 0.0.178 => 0.0.179
+ - @vx/marker: 0.0.178 => 0.0.179
+ - @vx/mock-data: 0.0.165 => 0.0.179
+ - @vx/network: 0.0.172 => 0.0.179
+ - @vx/pattern: 0.0.165 => 0.0.179
+ - @vx/responsive: 0.0.177 => 0.0.179
+ - @vx/scale: 0.0.178 => 0.0.179
+ - @vx/shape: 0.0.178 => 0.0.179
+ - @vx/stats: 0.0.178 => 0.0.179
+ - @vx/text: 0.0.175 => 0.0.179
+ - @vx/threshold: 0.0.178 => 0.0.179
+ - @vx/tooltip: 0.0.165 => 0.0.179
+ - @vx/vx: 0.0.178 => 0.0.179
+```
+
+# v0.0.178
+
+#### :rocket: Enhancements
+
+- [scale] add `type` property. [#367](https://github.com/hshoff/vx/pull/367)
+- [legend] add optional `flex` prop for overriding `flex` css property to `<LegendLabel />`. [#370](https://github.com/hshoff/vx/pull/370)
+- [shape] add support for non-scaleBand scales to `<BarStack />` and `<BarStackHorizontal />`. [#368](https://github.com/hshoff/vx/pull/368)
+
+#### :bug: Bug Fix
+
+- [legend] allow overriding flex property to fix [IE flexbox bug](https://stackoverflow.com/questions/39192995/flex-container-wont-expand-to-fit-content-in-ie). IE 11 does not seem to expand to minimum content width when flex-basis is 0px (this is the case when using the shorthand `flex: 1`). [#370](https://github.com/hshoff/vx/pull/370)
+
+#### :trophy: Contributors
+
+- [jdmoody](https://github.com/jdmoody)
+- [lucafalasco](https://github.com/lucafalasco)
+
+```
+Changes:
+ - @vx/annotation: 0.0.176 => 0.0.178
+ - @vx/axis: 0.0.176 => 0.0.178
+ - @vx/demo: 0.0.177 => 0.0.178
+ - @vx/grid: 0.0.176 => 0.0.178
+ - @vx/legend: 0.0.170 => 0.0.178
+ - @vx/marker: 0.0.176 => 0.0.178
+ - @vx/scale: 0.0.165 => 0.0.178
+ - @vx/shape: 0.0.176 => 0.0.178
+ - @vx/stats: 0.0.170 => 0.0.178
+ - @vx/threshold: 0.0.176 => 0.0.178
+ - @vx/vx: 0.0.177 => 0.0.178
+```
+
+# v0.0.177
+
+#### :rocket: Enhancements
+
+- [responsive] add rest props to `<ParentSize />` wrapper internal div. [#363](https://github.com/hshoff/vx/pull/363), [#365](https://github.com/hshoff/vx/pull/365)
+
+#### :trophy: Contributors
+
+- [giulioz](https://github.com/giulioz)
+- [hshoff](https://github.com/hshoff)
+
+```
+Changes:
+ - @vx/demo: 0.0.176 => 0.0.177
+ - @vx/responsive: 0.0.175 => 0.0.177
+ - @vx/vx: 0.0.176 => 0.0.177
+```
+
+# v0.0.176
+
+#### :bug: Bug Fix
+
+- [shape] fix for `<Polygon />` rest props
+
+#### :trophy: Contributors
+
+- [hshoff](https://github.com/hshoff)
+
+```
+Changes:
+ - @vx/annotation: 0.0.175 => 0.0.176
+ - @vx/axis: 0.0.175 => 0.0.176
+ - @vx/demo: 0.0.175 => 0.0.176
+ - @vx/grid: 0.0.175 => 0.0.176
+ - @vx/marker: 0.0.175 => 0.0.176
+ - @vx/shape: 0.0.175 => 0.0.176
+ - @vx/threshold: 0.0.175 => 0.0.176
+ - @vx/vx: 0.0.175 => 0.0.176
+ ```
+
+# v0.0.175
+
+#### :boom: Breaking Changes
+
+- [responsive] Rewrite withParentSize using ResizeObserver. `withParentSize()` changed `windowResizeDebounceTime` prop to `debounceTime` to match `<ParentSize />`. [#348](https://github.com/hshoff/vx/pull/348)
+
+#### :bug: Bug Fix
+
+- [axis] fix `labelTransform` function in *@vx/axis* to correctly align the axis label when different values for the scale's *range* are specified, in particular when it does not start (or end) with a 0. [#349](https://github.com/hshoff/vx/pull/349)
+- [text] change measurement svg `display: none` =>  `position: absolute` and position the svg offscreen. [#358](https://github.com/hshoff/vx/pull/358)
+
+#### :rocket: Enhancements
+
+- [shape] add `<Polygon />` component. [#355](https://github.com/hshoff/vx/pull/355)
+
+#### :memo: Documentation
+
+- [demo] update /boxplot example code. [#354](https://github.com/hshoff/vx/pull/354)
+- [demo] add /polygons example. [#355](https://github.com/hshoff/vx/pull/355)
+
+#### :house: Internal
+
+- [dev] add linting. [#346](https://github.com/hshoff/vx/pull/346)
+
+#### :trophy: Contributors
+
+- [lucafalasco](https://github.com/lucafalasco)
+- [marcofugaro](https://github.com/marcofugaro)
+- [geekplux](https://github.com/geekplux)
+- [ezy](https://github.com/ezy)
+- [dagda1](https://github.com/dagda1)
+- [mmartinsky](https://github.com/mmartinsky)
+- [hshoff](https://github.com/hshoff)
+
+```
+Changes:
+ - @vx/annotation: 0.0.171 => 0.0.175
+ - @vx/axis: 0.0.173 => 0.0.175
+ - @vx/demo: 0.0.174 => 0.0.175
+ - @vx/grid: 0.0.171 => 0.0.175
+ - @vx/marker: 0.0.171 => 0.0.175
+ - @vx/responsive: 0.0.172 => 0.0.175
+ - @vx/shape: 0.0.171 => 0.0.175
+ - @vx/text: 0.0.173 => 0.0.175
+ - @vx/threshold: 0.0.174 => 0.0.175
+ - @vx/vx: 0.0.173 => 0.0.175
+```
+
+# v0.0.174
+
+#### :rocket: Enhancements
+
+- [threshold] add id prop for unique clip-path ids. [#342](https://github.com/hshoff/vx/pull/342)
+
+#### :memo: Documentation
+
+- [demo] update heatmap example code to match new api. [#340](https://github.com/hshoff/vx/pull/340)
+
+#### :trophy: Contributors
+
+- [hshoff](https://github.com/hshoff)
+
+```
+Changes:
+ - @vx/demo: 0.0.173 => 0.0.174
+ - @vx/threshold: 0.0.171 => 0.0.174
+```
+
+# v0.0.173
+
+#### :boom: Breaking Changes
+
+- [heatmap] simplify `heatmap` API. [#332](https://github.com/hshoff/vx/pull/332)
+
+#### :rocket: Enhancements
+
+- [text] add innerRef prop. [#339](https://github.com/hshoff/vx/pull/339)
+
+#### :memo: Documentation
+
+- [docs] add code coverage demo to readme. [#337](https://github.com/hshoff/vx/pull/337)
+
+#### :trophy: Contributors
+
+- [jens-ox](https://github.com/jens-ox)
+- [ezy](https://github.com/ezy)
+- [hshoff](https://github.com/hshoff)
+
+```
+Changes:
+ - @vx/axis: 0.0.171 => 0.0.173
+ - @vx/demo: 0.0.172 => 0.0.173
+ - @vx/heatmap: 0.0.170 => 0.0.173
+ - @vx/text: 0.0.165 => 0.0.173
+ - @vx/vx: 0.0.172 => 0.0.173
+ ```
+
+# v0.0.172
+
+#### :bug: Bug Fix
+
+- [responsive] Avoid `ResizeObserver` loop limit exceeded. The issues surfaces on Chrome version >=64. [#335](https://github.com/hshoff/vx/pull/335)
+
+#### :memo: Documentation
+
+- [network] remove unrelated docs from readme. [#330](https://github.com/hshoff/vx/pull/330)
+
+#### :trophy: Contributors
+
+- [kristw](https://github.com/kristw)
+- [hshoff](https://github.com/hshoff)
+
+```
+Changes:
+ - @vx/demo: 0.0.171 => 0.0.172
+ - @vx/network: 0.0.170 => 0.0.172
+ - @vx/responsive: 0.0.165 => 0.0.172
+ - @vx/vx: 0.0.171 => 0.0.172
+```
+
+# v0.0.171
+
+#### :bug: Bug Fix
+
+- [shape] `<Pie />` allow null sort callbacks. `<Pie pieSort={null} pieSortValues={null} />` isn't ignored. [#327](https://github.com/hshoff/vx/pull/327)
+
+#### :trophy: Contributors
+
+- [Gosha](https://github.com/Gosha)
+
+```
+Changes:
+ - @vx/annotation: 0.0.170 => 0.0.171
+ - @vx/axis: 0.0.170 => 0.0.171
+ - @vx/demo: 0.0.170 => 0.0.171
+ - @vx/grid: 0.0.170 => 0.0.171
+ - @vx/marker: 0.0.170 => 0.0.171
+ - @vx/shape: 0.0.170 => 0.0.171
+ - @vx/threshold: 0.0.170 => 0.0.171
+ - @vx/vx: 0.0.170 => 0.0.171
+ ```
+
+# v0.0.170
+
+#### :rocket: Enhancements
+
+- [shape] add `<BarGroupHorizontal />` component. [#320](https://github.com/hshoff/vx/pull/320)
+- [shape] add optional `y0` prop to `<AreaClosed />` for custom area fills. [#319](https://github.com/hshoff/vx/pull/319)
+
+#### :bug: Bug Fix
+
+- [group] <possibly breaking change> fix `<Group />` classname. should be `vx-group`, not `cx-group`. [#316](https://github.com/hshoff/vx/pull/316)
+
+#### :memo: Documentation
+
+- [docs] run readme docs sync. [#325](https://github.com/hshoff/vx/pull/325)
+- [stats] update `@vx/stats` readme name to stats. [#324](https://github.com/hshoff/vx/pull/324)
+- [shape] add docs for `<BarGroup />` and `<BarGroupHorizontal />`. [#320](https://github.com/hshoff/vx/pull/320)
+
+#### :trophy: Contributors
+
+- [sdd](https://github.com/sdd)
+- [rjatkinson2](https://github.com/rjatkinson2)
+- [spiderbites](https://github.com/spiderbites)
+- [hshoff](https://github.com/hshoff)
+
+```
+Changes:
+ - @vx/annotation: 0.0.168 => 0.0.170
+ - @vx/axis: 0.0.168 => 0.0.170
+ - @vx/boxplot: 0.0.165 => 0.0.170
+ - @vx/demo: 0.0.169 => 0.0.170
+ - @vx/geo: 0.0.166 => 0.0.170
+ - @vx/glyph: 0.0.165 => 0.0.170
+ - @vx/grid: 0.0.169 => 0.0.170
+ - @vx/group: 0.0.165 => 0.0.170
+ - @vx/heatmap: 0.0.166 => 0.0.170
+ - @vx/hierarchy: 0.0.165 => 0.0.170
+ - @vx/legend: 0.0.167 => 0.0.170
+ - @vx/marker: 0.0.168 => 0.0.170
+ - @vx/network: 0.0.165 => 0.0.170
+ - @vx/shape: 0.0.168 => 0.0.170
+ - @vx/stats: 0.0.165 => 0.0.170
+ - @vx/threshold: 0.0.168 => 0.0.170
+ - @vx/voronoi: 0.0.165 => 0.0.170
+ - @vx/vx: 0.0.169 => 0.0.170
+ ```
 
 # v0.0.169
 
