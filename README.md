@@ -27,6 +27,25 @@
 
 ### vx
 
+<hr/>
+This is a fork designed to produce a standalone build of `@vx-vx` for browser use.  I unfortunately don't know enough about the build system to correct what doesn't work in my use of `@vx-*` with `rollup`, so I hacked away at this. I hope it helps somebody else as well.
+
+** changes required **
+
+* use `lodash-es` instead of lodash [commit](https://github.com/timelyportfolio/vx/commit/d0efbdde2fdd74ff1b53fa6aff777132f2874ee7) and [commit](https://github.com/timelyportfolio/vx/commit/98d7bfd7d03dabaa1c91108772613baa7a39f2f6)
+* separate `types` from function in import [commit](https://github.com/timelyportfolio/vx/commit/d65e74716d31b6dfb7420f2a6a1a75e971cd6195)
+* change all `@vx-*` references to `../../vx-*` [commit](https://github.com/timelyportfolio/vx/commit/63aba86078cd6a331ece32e5846332407c8a5cab)
+* change typescript compiler options but not sure this is necessary [commit](https://github.com/timelyportfolio/vx/commit/99638cfc8e135db8d6dd0b9e3502f6d76f8f1911)
+* in `@vx-tooltip` I get `var TooltipWithBounds$1 = bounds.withBoundingRects(TooltipWithBounds);` somehow and had to manually change in the `umd` build to `var TooltipWithBounds$1 = withBoundingRects(TooltipWithBounds);`
+
+** build **
+
+see changes above and then `yarn run build:dist` to use rollup to produce umd build
+
+then commit the umd build to /docs for github pages distribution
+
+<hr/>
+
 vx is a collection of reusable low-level visualization components. vx combines the power of d3 to
 generate your visualization with the benefits of react for updating the DOM.
 
