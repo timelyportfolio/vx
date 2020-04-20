@@ -1,7 +1,8 @@
 import React from 'react';
 import { Group } from '@vx/group';
 import { Bar } from '@vx/shape';
-import Drag, { HandlerArgs as DragArgs } from '@vx/drag/lib/Drag';
+import { Drag } from '@vx/drag';
+import { HandlerArgs as DragArgs } from '@vx/drag/lib/Drag';
 
 import BrushHandle from './BrushHandle';
 import BrushCorner from './BrushCorner';

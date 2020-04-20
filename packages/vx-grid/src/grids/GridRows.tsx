@@ -1,6 +1,7 @@
 import React from 'react';
 import cx from 'classnames';
-import Line, { LineProps } from '@vx/shape/lib/shapes/Line';
+import { Line } from '@vx/shape';
+import { LineProps } from '@vx/shape/lib/shapes/Line';
 import { Group } from '@vx/group';
 import { Point } from '@vx/point';
 import { Scale, CommonGridProps } from '../types';
