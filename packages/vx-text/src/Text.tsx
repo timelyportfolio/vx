@@ -1,5 +1,4 @@
 import React from 'react';
-import reduceCSSCalc from 'reduce-css-calc';
 import getStringWidth from './util/getStringWidth';
 
 const SVG_STYLE = { overflow: 'visible' };
@@ -178,13 +177,11 @@ class Text extends React.Component<TextProps, TextState> {
 
     let startDy: string | undefined;
     if (verticalAnchor === 'start') {
-      startDy = reduceCSSCalc(`calc(${capHeight})`);
+      startDy = `calc(${capHeight})`;
     } else if (verticalAnchor === 'middle') {
-      startDy = reduceCSSCalc(
-        `calc(${(wordsByLines.length - 1) / 2} * -${lineHeight} + (${capHeight} / 2))`,
-      );
+      startDy = `calc(${(wordsByLines.length - 1) / 2} * -${lineHeight} + (${capHeight} / 2))`;
     } else {
-      startDy = reduceCSSCalc(`calc(${wordsByLines.length - 1} * -${lineHeight})`);
+      startDy = `calc(${wordsByLines.length - 1} * -${lineHeight})`;
     }
 
     let transform: string | undefined;
