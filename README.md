@@ -44,6 +44,16 @@ see changes above and then `yarn run build:dist` to use rollup to produce umd bu
 
 then commit the umd build to /docs for github pages distribution
 
+** use **
+
+```
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/d3"></script>
+<script src="https://unpkg.com/prop-types@15.7.2/prop-types.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/classnames/2.2.6/index.min.js"></script>
+```
+
 <hr/>
 
 vx is a collection of reusable low-level visualization components. vx combines the power of d3 to
